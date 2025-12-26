@@ -21,5 +21,3 @@ tarnary operator
 === {
     always use this is will gave you accurate value
 }
-
-
