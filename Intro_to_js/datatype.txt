@@ -1,0 +1,10 @@
+String - "Hello" - TEXT
+Number - 10,33, 3.22 - Numeric Values
+boolean - True , False - Yes/No
+Null - Empty intentionally
+undefined - not asssigened 
+symbol - unique Values
+bigInt -  values that are vary bigs o
+object {        
+    name : "Arman : ,
+    age : 20} - store multiple values of datatypes in single location
