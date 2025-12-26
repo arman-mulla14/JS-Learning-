@@ -1,0 +1,2 @@
+
+js is build for make website intrective and response for humans it helps to add funtionality in website that is biggest achivement for web dev  

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-16" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="box">
+        <div class="main">
+            <label for="number"> Enter Your Age </label> <br>
+        <input type="number " value="1" placeholder="Enter Age "  id="data"/>
+        <button onclick="Roll()">Check</button>
+        <br>
+        <br>
+        
+        <h3 id="result"></h3>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+
+      .hero {
+       text-align: center;
+      }
+
+     .box{
+     text-align: center;
+        margin-top: 120px;
+    height: 500px;
+       
+      display: flex;
+      justify-content: center;
+
+     }
+     .main{
+        background: #75beef;
+        width: 420px;
+        height: 220px;
+        padding-top: 40px;
+        border-radius: 10px;
+        margin: 0px;
+
+        text-align: center;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+     }
+input{
+    text-align: center;
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 25px;
+    
+}
+
+button{
+    margin-top: 10px;
+    width: 50%;
+    height: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #daa766;
+    color: white;
+    border: none;
+}
+label{
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+
+button:hover{
+    background: #99e888;
+    transition: .3s;
+}
+    </style>
+
+    <script>
+function Roll(){
+    let data = document.getElementById("data").value;
+    let result = document.getElementById("result");
+
+    if(data >= 18){
+        result.textContent="You Are Good To Go ";
+    }else{
+        result.textContent="Not Good To Go"
+    }
+}
+
+    </script>
+  </body>
+</html>

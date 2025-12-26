@@ -1,0 +1,23 @@
+- add numbers
+- compare 
+- true False
+- join 2  String
+- logic
+- assign 
+- operation
+
+
+// types of operator
+
+Arithmatical operator (+ , - , * , % )
+logical operator
+comparison operator
+other operator
+tarnary operator
+
+
+//Arithmatical
+
+=== {
+    always use this is will gave you accurate value
+}
